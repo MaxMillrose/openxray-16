@@ -384,7 +384,7 @@ set(SRC_FILES
     "../../Include/xrRender/WallMarkArray.h"
 )
 
-group_sources(SRC_FILES)
+source_group(SRC_FILES)
 
 add_library(${PROJECT_NAME} SHARED ${SRC_FILES})
 

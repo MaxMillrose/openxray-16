@@ -2614,7 +2614,7 @@ set(SRC_FILES
     "../xrServerEntities/xrServer_Space.h"
 )
 
-group_sources(SRC_FILES)
+source_group(SRC_FILES)
 
 add_library(${PROJECT_NAME} SHARED ${SRC_FILES})
 

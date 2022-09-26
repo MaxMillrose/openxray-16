@@ -10,7 +10,7 @@ set(SRC_FILES
     "pch.cpp"
 )
 
-group_sources(SRC_FILES)
+source_group(SRC_FILES)
 
 add_library(${PROJECT_NAME} STATIC ${SRC_FILES})
 

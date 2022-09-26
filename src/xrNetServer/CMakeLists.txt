@@ -27,7 +27,7 @@ set(SRC_FILES
     "empty/NET_Server.h"
 )
 
-group_sources(SRC_FILES)
+source_group(SRC_FILES)
 
 add_library(${PROJECT_NAME} SHARED ${SRC_FILES})
 

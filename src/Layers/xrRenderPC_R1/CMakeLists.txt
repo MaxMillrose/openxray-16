@@ -23,7 +23,7 @@ set(SRC_FILES
     "xrRender_R1.cpp"
 )
 
-group_sources(SRC_FILES)
+source_group(SRC_FILES)
 
 add_library(${PROJECT_NAME} SHARED ${SRC_FILES})
 
